@@ -403,9 +403,6 @@
 
 .save_button {
   margin-block-end: 50px;
-}
-
-.save__button-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -482,7 +479,7 @@ dialog:not([open]) {
     right: 13px;
   }
 
-  .save__button-container {
+  .save_button {
     flex-direction: column;
     inline-size: 306px;
     block-size: 80px;

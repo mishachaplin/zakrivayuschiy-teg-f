@@ -362,16 +362,15 @@
 
   <footer>
     <button class="button save_button" type="button" onclick="window['popup'].showModal()" aria-controls="popup">
-      <div class="save__button-container">
         <svg class="floppy_icon" viewBox="0 0 40 40">
           <use href="../svg/floppy.svg#floppy">
         </svg>
         <span class="button__text save_button__text">Сохранить на память</span>
-      </div>
     </button>
   </footer>
 
-  <dialog class="popup" id="popup" aria-modal="true">
+  <dialog class="popup" id="popup" aria-modal="true" role="dialog">
+    <form method="dialog">
     <svg class="floppy_icon floppy_icon-big">
       <use href="../svg/floppy.svg#floppy">
     </svg>
@@ -379,6 +378,7 @@
     <button class="button ok_button" type="button" onclick="window['popup'].close()">
       <span class="button__text">Ok</span>
     </button>
+  </form>
   </dialog>
 
   <script src="./scripts/like.js"></script>
