@@ -363,7 +363,7 @@
   <footer>
     <button class="button save_button" type="button" onclick="window['popup'].showModal()" aria-controls="popup">
         <svg class="floppy_icon" viewBox="0 0 40 40">
-          <use href="../svg/floppy.svg#floppy">
+          <use href="../svg/floppy.svg#floppy" />
         </svg>
         <span class="button__text save_button__text">Сохранить на память</span>
     </button>
@@ -371,12 +371,14 @@
 
   <dialog class="popup" id="popup" aria-modal="true">
     <svg class="floppy_icon floppy_icon-big">
-      <use href="../svg/floppy.svg#floppy">
+      <use href="../svg/floppy.svg#floppy" />
     </svg>
     <p class="popup__text">Вставьте дискету, чтобы продолжить</p>
+
     <button class="button ok_button" type="button" onclick="window['popup'].close()">
       <span class="button__text">Ok</span>
     </button>
+  
   </dialog>
 
   <script src="./scripts/like.js"></script>
