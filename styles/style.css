@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  margin: 50px auto 0;
+  margin: 100px auto 0;
   color: var(--accent-color);
   font-family: "Inter-Variable", sans-serif;
   background-color: var(--bg-color);
@@ -402,12 +402,12 @@
 }
 
 .save_button {
-  margin-block-end: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 8px;
+  /* margin-block-end: 50px; */
   inline-size: 335px;
   block-size: 51px;
 }
@@ -418,6 +418,13 @@
   block-size: 21px;
   mix-blend-mode: difference;
 }
+
+/*
+.footer {
+  padding-block-end: 50px;
+} */
+
+/* -----------------POP-UP----------------- */
 
 .popup {
   display: grid;
@@ -470,6 +477,8 @@ dialog:not([open]) {
   line-height: 150%;
   text-transform: uppercase;
 }
+
+/* -----------------MEDIA----------------- */
 
 @media (width <= 375px) {
   :root {
