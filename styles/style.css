@@ -82,6 +82,7 @@
   font-size: 14px;
   text-transform: uppercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .theme-menu__button:focus {
@@ -257,6 +258,7 @@
   font-family: "PressStart2P-Regular", system-ui;
   font-size: 14px;
   background-color: var(--bg-color);
+  cursor: pointer;
 }
 
 .card__like-button {
@@ -295,6 +297,7 @@
   background: none;
   inline-size: 43px;
   block-size: 38px;
+  cursor: pointer;
 }
 
 .card__icon-logo {
