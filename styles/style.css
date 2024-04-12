@@ -17,9 +17,9 @@
 .page {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 50px;
-  margin: 100px auto 0;
+  align-items: center; 
+  gap: 50px; 
+  margin: 100px auto 50px;
   color: var(--accent-color);
   font-family: "Inter-Variable", sans-serif;
   background-color: var(--bg-color);
@@ -38,7 +38,6 @@
   grid-template-columns: 100%;
   grid-template-rows: 1fr min-content 1fr;
   place-items: center;
-  margin-block-start: 50px;
   border: 2px solid var(--accent-color);
   font-family: "PressStart2P-Regular", system-ui;
   background-color: var(--bg-color);
@@ -407,7 +406,6 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  /* margin-block-end: 50px; */
   inline-size: 335px;
   block-size: 51px;
 }
@@ -418,11 +416,6 @@
   block-size: 21px;
   mix-blend-mode: difference;
 }
-
-/*
-.footer {
-  padding-block-end: 50px;
-} */
 
 /* -----------------POP-UP----------------- */
 
