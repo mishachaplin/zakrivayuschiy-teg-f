@@ -450,11 +450,16 @@ dialog:not([open]) {
   block-size: 39px;
 }
 
-.ok_button {
+.popup__form {
   grid-column: 1 / 3;
   grid-row: 2 / 3;
   inline-size: 100%;
   block-size: 38px;
+}
+
+.ok_button {
+  inline-size: inherit;
+  block-size: 100%;
 }
 
 .popup__text {
