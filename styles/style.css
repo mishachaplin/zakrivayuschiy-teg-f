@@ -35,12 +35,12 @@
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 1fr min-content 1fr;
-  padding-block-start: 37px;
-  padding-block-end: 25px;
   place-items: center;
   margin-block-start: 100px;
   margin-block-end: 50px;
   border: 2px solid var(--accent-color);
+  padding-block-start: 37px;
+  padding-block-end: 25px;
   font-family: "PressStart2P", fantasy;
   background-color: var(--bg-color);
   inline-size: var(--card-inline-size);
@@ -83,8 +83,8 @@
   font-size: 14px;
   text-transform: uppercase;
   background-color: transparent;
-  cursor: pointer;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .theme-menu__button:focus {
@@ -255,8 +255,8 @@
   font-family: "PressStart2P", fantasy;
   font-size: 14px;
   background-color: var(--bg-color);
-  cursor: pointer;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 button:focus {
@@ -296,10 +296,10 @@ button:focus {
   display: block;
   border: 2px solid transparent;
   background: none;
+  transition: 0.3s linear;
+  cursor: pointer;
   inline-size: 43px;
   block-size: 38px;
-  cursor: pointer;
-  transition: 0.3s linear;
 }
 
 .card__icon-logo {
@@ -389,10 +389,10 @@ button:focus {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  inline-size: 335px;
-  block-size: 51px;
   margin-block-start: 50px;
   margin-block-end: 100px;
+  inline-size: 335px;
+  block-size: 51px;
 }
 
 .floppy_icon {
@@ -441,9 +441,9 @@ dialog:not([open]) {
 }
 
 .submit_button {
+  text-transform: uppercase;
   inline-size: inherit;
   block-size: 100%;
-  text-transform: uppercase;
 }
 
 .popup__text {
