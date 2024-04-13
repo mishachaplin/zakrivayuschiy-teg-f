@@ -34,8 +34,8 @@
     --bg-color: #000;
     --accent-color: #00cc14;
     --btn-text-color: #00cc14;
-    --bg-image: repeating-linear-gradient(to bottom, #000, transparent 2px),
-                repeating-linear-gradient(to right, #000, transparent 2px),
+    --bg-image: repeating-linear-gradient(to bottom, #000, transparent 4px),
+                repeating-linear-gradient(to right, #000, transparent 4px),
                 linear-gradient(to bottom, #007f0c, #004306);
     --card-title-wght: "wght" 785;
     --label-color: #00cc1480;
