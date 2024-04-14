@@ -162,6 +162,9 @@
 .card__image {
   display: block;
   inline-size: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
 }
 
 .card__image_container {
@@ -453,4 +456,38 @@ dialog:not([open]) {
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
+}
+
+@media (width <= 375px) {
+  :root {
+    --card-inline-size: 100%;
+  }
+
+  .header {
+    padding-block-start: 20px;
+  }
+
+  .card__image-label {
+    right: 13px;
+  }
+
+  .save_button {
+    flex-direction: column;
+    inline-size: 306px;
+    block-size: 80px;
+  }
+
+  .floppy_icon {
+    inline-size: 28px;
+    block-size: 28px;
+  }
+
+  .floppy_icon-big {
+    inline-size: 39px;
+    block-size: 39px;
+  }
+
+  .popup {
+    padding: 30px 39px;
+  }
 }
