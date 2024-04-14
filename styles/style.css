@@ -161,10 +161,10 @@
 
 .card__image {
   display: block;
-  inline-size: 100%;
-  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
+  inline-size: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 .card__image_container {
@@ -228,7 +228,7 @@
 
 .svg-mask {
   mask-image: url(../svg/heart-full.svg);
-  mask-size: auto 130%;
+  mask-size: auto 120%;
   mask-repeat: no-repeat;
   mask-position: center;
 }
