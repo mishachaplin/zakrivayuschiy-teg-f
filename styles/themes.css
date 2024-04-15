@@ -1,12 +1,13 @@
 :root.theme-light {
   --card-text: "wght" 400;
   --card-title: "wght" 700;
+  --card-bg-color: #fff;
   --bg-color: #d3d3d3;
   --accent-color: #000;
   --btn-text-color: #fff;
-  --bg-image: repeating-linear-gradient(to bottom, #d3d3d3, transparent 4px),
-              repeating-linear-gradient(to right, #d3d3d3, transparent 4px),
-              linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --bg-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+              repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+              linear-gradient(180deg, #e7e7e7 0, #e7e7e7 0.01%, #1a1a1a 100%);
   --label-color: #00000080;
   --label-stroke-color: #ffffff80;
   --heart-contour-color: #000;
@@ -15,12 +16,13 @@
 :root.theme-dark {
   --card-text: "wght" 465;
   --card-title: "wght" 785;
+  --card-bg-color: #000;
   --bg-color: #000;
   --accent-color: #00cc14;
   --btn-text-color: #00cc14;
-  --bg-image: repeating-linear-gradient(to bottom, #000, transparent 4px),
-              repeating-linear-gradient(to right, #000, transparent 4px),
-              linear-gradient(to bottom, #007f0c, #004306);
+  --bg-image: repeating-linear-gradient(90deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+              repeating-linear-gradient(180deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+              linear-gradient(180deg, #007f0c, #004306);
   --card-title-wght: "wght" 785;
   --label-color: #00cc1480;
   --label-stroke-color: #00000080;
@@ -31,12 +33,13 @@
   :root {
     --card-text: "wght" 465;
     --card-title: "wght" 785;
+    --card-bg-color: #000;
     --bg-color: #000;
     --accent-color: #00cc14;
     --btn-text-color: #00cc14;
-    --bg-image: repeating-linear-gradient(to bottom, #000, transparent 4px),
-                repeating-linear-gradient(to right, #000, transparent 4px),
-                linear-gradient(to bottom, #007f0c, #004306);
+    --bg-image: repeating-linear-gradient(90deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+                repeating-linear-gradient(180deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+                linear-gradient(180deg, #007f0c, #004306);
     --card-title-wght: "wght" 785;
     --label-color: #00cc1480;
     --label-stroke-color: #00000080;
