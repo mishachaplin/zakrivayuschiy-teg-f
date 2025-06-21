@@ -38,7 +38,7 @@
 .header__title {
   grid-row: 2 / 3;
   justify-self: center;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
 }
 
 .logo {
@@ -127,7 +127,7 @@
   position: absolute;
   opacity: 0.5;
   color: #000;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   text-transform: uppercase;
   text-shadow: -1px 0 var(--decoration-color), 0 1px var(--decoration-color),
@@ -231,7 +231,7 @@
 
 .button__text {
   color: #fff;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 90%;
   mix-blend-mode: difference;
@@ -262,7 +262,7 @@
 }
 
 .popup__paragraph {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
